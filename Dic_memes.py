@@ -1,11 +1,11 @@
 import random
 
 meme_dict = {
-    "CRINGE": "Algo excepcionalmente raro o embarazoso",
-    "LOL": "Una respuesta común a algo gracioso",
-    "XD": "Una risa o simbolismo de la misma",
-    "MELO": "Genial o bueno",
-    "PARCERO": "Amigo o conocido"
+    "CRINGE": "algo excepcionalmente raro o embarazoso",
+    "LOL": "una respuesta común a algo gracioso",
+    "XD": "una risa o simbolismo de la misma",
+    "MELO": "genial o bueno",
+    "PARCERO": "amigo o conocido"
 }
 
 print("¿Qué palabra no entiendes? ")
