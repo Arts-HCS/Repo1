@@ -16,5 +16,6 @@ if palabra in meme_dict:
     
 else: 
     print("Esa palabra no se encuentra, pero te puedo dar otra: ")
-    clave = random.choice(meme_dict.keys())
+    clave = random.choice(list(meme_dict.keys()))
+
     print(clave+" significa",meme_dict[clave])
