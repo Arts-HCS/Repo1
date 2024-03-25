@@ -57,6 +57,14 @@ async def repeat(ctx, times: int, content='repeating...'):
         await ctx.send(content)
 
 @bot.command()
+async def mcd(ctx, a: int, b: int):
+    while b:
+        a, b = b, a % b
+    await ctx.send(f"El máximo común divisor de los números es {a}.")
+
+
+
+@bot.command()
 async def password(ctx, num:int):
     if num > 0:
         await ctx.send(gen(num))
@@ -85,4 +93,4 @@ async def _bot(ctx):
     await ctx.send('Yes, the bot is cool.')
 
 
-bot.run("Token)
+bot.run("Token")
